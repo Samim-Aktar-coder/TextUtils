@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+*** I can't solve a problem in this website. I wan't to show the text in preview same as textbox with white space. But it automatically omit all white spaces.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
