@@ -105,6 +105,14 @@ export default function TextForm(props) {
                 <h3>Word{wordCount() > 1 ? 's' : ''}: <span>{wordCount()}</span></h3>
                 <h3>Character{text.split('').length > 1 ? 's' : ''}: <span>{text.split('').length}</span></h3>
             </div>
+
+
+            <div className="preview__box">
+                <h1>Text Preview</h1>
+                <div className="preview__content">
+                    <p>{text.length===0?'Write any text in the text box to see preview here':text}</p>
+                </div>
+            </div>
         </div>
     );
 }
